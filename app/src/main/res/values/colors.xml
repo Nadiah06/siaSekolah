@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="army">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="pink">#D81B60</color>
+    <color name="pinkmuda">#C8D53749</color>
+    <color name="pinkta">#7EFC548A</color>
+    <color name="hijaumuda">#ED597E08</color>
+    <color name="hijautua">#72A707</color>
+    <color name="hijauta">#9E658F04</color>
+    <color name="kuning">#ABF1B90C</color>
+    <color name="kuningta">#8AF8FF3B</color>
+    <color name="kuningmuda">#99DAA306</color>
+    <color name="kung">#7ADAA306</color>
+    <color name="maron">#B10E00</color>
+    <color name="ungu">#A50A8D</color>
+    <color name="biru">#23E7D3</color>
+    <color name="black">#181717</color>
+    <color name="putih">#FFFCFC</color>
+    <color name="abu">#7CDBD9D9</color>
+</resources>

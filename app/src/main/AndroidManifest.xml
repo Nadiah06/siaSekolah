@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sisteminformasi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/noActionBar">
+        <activity android:name=".video.Video"></activity>
+        <activity android:name=".tentang.Tentang" />
+        <activity android:name=".kesiswaan.XtraKulikuler" />
+        <activity android:name=".kesiswaan.Paskibraka" />
+        <activity android:name=".kesiswaan.Mb" />
+        <activity android:name=".kesiswaan.Osis" />
+        <activity android:name=".profil.StrukturPimpinan" />
+        <activity android:name=".profil.Sejarah" />
+        <activity android:name=".profil.VisiMisi" />
+        <activity android:name=".dataguru.Sahara" />
+        <activity android:name=".dataguru.Upayani" />
+        <activity android:name=".dataguru.Titik" />
+        <activity android:name=".dataguru.Susi" />
+        <activity android:name=".dataguru.Sudarsono" />
+        <activity android:name=".dataguru.Bagus" />
+        <activity android:name=".dataguru.Kartina" />
+        <activity android:name=".dataguru.Juwarningsih" />
+        <activity android:name=".dataguru.Idrus" />
+        <activity android:name=".dataguru.Desi" />
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kesiswaan.Kesiswaan" />
+        <activity android:name=".pendaftaran.Pendaftaran" />
+        <activity android:name=".home.Home" />
+        <activity android:name=".maps.Lokasi" />
+        <activity android:name=".dataguru.DataGuru" />
+        <activity android:name=".profil.Profil" />
+        <activity android:name=".recyclerview.Galeri" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBn7sQpsAorCweRuTSoG5KGcWUmrpyvQTE" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

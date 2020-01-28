@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kesiswaan.Osis">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/putih">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OSIS"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:background="@color/hijaumuda"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/osis"
+            android:paddingTop="13dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/osis1"
+            android:padding="@dimen/default_indicator_margin_horizontal"
+            android:autoLink="web"
+            android:lineSpacingExtra="@dimen/cardview_default_radius"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="normal"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="STRUKTUR OSIS SMAN 2 TARAKAN PERIODE 2017/2018"
+            android:textSize="14dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_indicator_margin_horizontal"
+            android:lineSpacingExtra="@dimen/default_circle_indicator_radius"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="@string/osis2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="STRUKTUR OSIS SMAN 2 TARAKAN PERIODE 2018/2019"
+            android:textSize="14dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_indicator_margin_horizontal"
+            android:textAppearance="@android:style/TextAppearance"
+            android:lineSpacingExtra="@dimen/cardview_compat_inset_shadow"
+            android:text="@string/osis3"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="STRUKTUR OSIS SMAN 2 TARAKAN PERIODE 2019/2020"
+            android:textSize="14dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_indicator_margin_horizontal"
+            android:lineSpacingExtra="@dimen/cardview_compat_inset_shadow"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="@string/osis4"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ARTI GAMBAR PADA LOGO OSIS LEMANCO SMA N 2 Tarakan"
+            android:textSize="14dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_indicator_margin_horizontal"
+            android:textAppearance="@android:style/TextAppearance"
+            android:lineSpacingExtra="@dimen/cardview_compat_inset_shadow"
+            android:text="@string/osis5"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_vertical"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:textColor="@color/black">
+
+            <Button
+                android:id="@+id/button_osis1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/iconhome"
+                android:paddingBottom="4dp"
+                android:paddingTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

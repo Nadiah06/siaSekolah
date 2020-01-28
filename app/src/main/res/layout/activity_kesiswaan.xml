@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kesiswaan.Kesiswaan">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/osis"
+        android:background="@color/hijaumuda"
+        android:layout_margin="1dp"
+        android:textColor="@color/putih"
+        android:text="OSIS"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb"
+        android:background="@color/hijauta"
+        android:layout_margin="1dp"
+        android:text="Marching Band"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paskibraka"
+        android:background="@color/hijaumuda"
+        android:layout_margin="1dp"
+        android:textColor="@color/putih"
+        android:text="Paskibraka"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ektrakulikuler"
+        android:background="@color/hijauta"
+        android:layout_margin="1dp"
+        android:text="Ekstrakurikuler"/>
+    </LinearLayout>
+</LinearLayout>

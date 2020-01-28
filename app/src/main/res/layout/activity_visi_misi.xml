@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil.VisiMisi">
+
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/putih">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="VISI DAN MISI"
+        android:gravity="center_horizontal"
+        android:textSize="19dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="@color/pinkmuda"
+        android:textColor="@color/putih"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/visi"
+        android:padding="@dimen/default_indicator_margin_horizontal"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/misi"
+        android:padding="@dimen/default_indicator_margin_horizontal"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="300dp"
+        android:textColor="@color/black">
+
+        <Button
+            android:id="@+id/button_visimisi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/iconhome"
+            android:paddingBottom="4dp"
+            android:paddingTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+    </LinearLayout>
+</LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>
+

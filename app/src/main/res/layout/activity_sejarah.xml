@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".profil.Sejarah">
+
+    <include layout="@layout/toolbar"/>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/putih">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="SEJARAH"
+           android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+           android:textStyle="bold"
+           android:background="@color/pinkta"
+           android:textColor="@color/black"
+           android:gravity="center"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/sejarah"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sejarah"
+           android:padding="@dimen/default_indicator_margin_vertical"
+           android:lineSpacingExtra="@dimen/default_indicator_margin_horizontal"
+           android:textAppearance="@android:style/TextAppearance"
+           android:paddingTop="8dp"
+           android:textSize="16dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="fill_vertical"
+           android:orientation="vertical"
+           android:paddingTop="30dp"
+           android:textColor="@color/black">
+
+           <Button
+               android:id="@+id/button_sejarah"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:background="@drawable/iconhome"
+               android:paddingBottom="4dp"
+               android:paddingTop="50dp"
+               android:textColor="@color/black"
+               android:textSize="19dp" />
+       </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil.Profil">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_visimisi"
+        android:background="@color/pinkmuda"
+        android:layout_margin="1dp"
+        android:textColor="@color/putih"
+        android:text="Visi dan Misi"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_sejarah"
+        android:background="@color/pinkta"
+        android:layout_margin="1dp"
+        android:text="Sejarah"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pinkmuda"
+        android:id="@+id/bt_pimpinan"
+        android:layout_margin="1dp"
+        android:textColor="@color/putih"
+        android:text="Struktur Sekolah"/>
+    </LinearLayout>
+
+</LinearLayout>

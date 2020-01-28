@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SIA Sekolah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="osis1">"      OSIS SMAN 2 TARAKAN memiliki Logo dengan Nama "LEMANCO" yaitu Leadership,Management,Conceptor. Siswa yang tergabung dengan Organisasi ini merupakan siswa-siswi pilihan yang telah melalui berbagai macam tahap seleksi. Anggota osis ini nantinya akan memiliki kemampuan berorganisasi,kemampuan management dan leadership dan tentunya akan memiliki ilmu pengetahuan umum."</string>
+
+    <string name="osis2">
+"Ketua Osis : Intan Ghina Ilmi
+Wakil Ketua Osis 1 : Amaliyah Kurniawan
+Sekretaris 1 : Andini Zalsa Mardiah Hidayanti
+Sekretaris 2 : Nabilah Qonita Anjani
+Bendahara 1 : Irma Islamiah
+Bendahara 2 : Syarifah Nur Anisa Guslima
+Komisi 1 : Rizki Kamisa
+Komisi 2 : Rizky Mahendra Junior
+Komisi 3 : Hafitri Rezki
+Komisi 4 : Kinanti Renaningtyas Untoro"</string>
+
+    <string name="osis3">"Ketua Osis : Lufi Chandra
+Wakil Ketua Osis 1 : Ayu Wulan Dari
+Sekretaris 1 : Nabilah Qonita Anjani
+Sekretaris 2 : Feivicia Priscilla Reviona Lantang
+Bendahara 1 : Greinmitha Layun Sari
+Bendahara 2 : Dwi Putri Hartati rahman
+Komisi 1 : Mohammad Sobirin Noor
+Komisi 2 : Zarwan Wijaya
+Komisi 3 : Fardhan Gabaiâ€™l
+Komisi 4 : Nur Hidayah Putri Asyura"</string>
+
+    <string name="osis4">"Ketua Osis : Balgis
+Wakil Ketua Osis : Dwi Putri Hartati Rahman
+Sekretaris 1 : Septi Sofia Rini Triastuti
+Sekretaris 2 : Haura Atsella
+Bendahara 1 : Nasyah Nur Aulia Fakhira
+Bendahara 2 : Putri Anjani
+Komisi 1 : Windi
+Komisi 2 : Irfan Prasetyo
+Komisi 3 : Suhandy
+Komisi 4 : Zulfahmi Butar"</string>
+
+    <string name="osis5">"Lingkaran berwarna biru : menggambarkan persatuan, perdamaian dan persaudaraan.
+
+    Gambar anak panah menuju arah bawah dan berwarna merah : menggambarkan pengurus OSIS harus terus berani menciptakan dan mengkonsep ide-ide kreatif. Ide dan konsep harus bisa disampaikan serta dikomunikasikan ke seluruh warga SMA Negeri 2 Tarakan. Jadi ide atau konsep tidak hanya ada di kepala saja tetapi harus bisa dikomunikasikan.
+
+    Gambar kepala singa : karakter kepemimpinan, berani untuk menjadi seorang pemimpin di depan, memberi contoh yang baik pada anggota timnya, mengayomi anggota tim kerja dan dapat bekerjasama, serta mendorong anggotanya untuk berani berkarya.
+
+    Gambar renggaan 2 burung merpati yang berpelukan dengan disain seperti  2 tangan yang sedang berjabat tangan : Burung dara adalah salah satu hewan yang memiliki rasa setia pada kelompoknya. Selain itu burung dara juga hewan yang cerdas mengatur strategi dalam kelompoknya. Maka maksud diambilnya gambar burung dara ini adalah anggota OSIS haruslah memiliki rasa kesetiakawanan, solidaritas dan loyalitas yang cukup tinggi pada komunitasnya. Selanjutnya anggota OSIS juga harus bisa menjadi individu yang pandai mengatur strategi dalam segala bidang (memanajemen) di dalam tim kerja. Warna kuning melambangkan kesuksesan dan hijau melambangkan kenyamanan dengan terus bekerjasama menjaga kebersihan lingkungan hidup.
+
+    Tulisan LEMANCO : yang berarti LE (Leadership : Kepemimpinan), MAN (Management : Memenejemen/mengatur sebuah tim kerja), CO (Conseptor : Mengkonsep ide-ide kreatif)
+
+    Gambar keseluruhan jika dilihat seperti ikon tersenyum : Pengurus OSIS harus bisa bersikap ramah dan sopan, serta terus membudayakan 3S (Senyum, Sapa dan Salam) kepada siapapun. "</string>
+    <string name="visi">"VISI     :
+Menciptakan manusia beriman bertaqwa berkepribadian dan berbudi pekerti luhur, bersumber daya serta berbudaya lingkungan hidup" </string>
+
+    <string name="misi">"MISI    :
+1.    Menumbuhkan penghayatan dan pengamalan terhadap agama yang dianut
+2.    Melaksanakan pembelajaran dan bimbingan secara efektif sehingga siswa berkembang secara optimal sesuai potensi yang dimilikinya
+3.    Meningkatkan profesionalisme tenaga kependidikan
+4.    Menyediakan sarana prasarana bagi peserta didik dan tenaga kependidikan
+5.    Mengembangkan sikap dan prilaku yang berbudi pekerti luhur
+6.    Mengembangkan sikap dan prilaku yang berbudaya lingkungan hidup     "</string>
+
+    <string name="sejarah">"        Kota Tarakan adalah kota terbesar di Provinsi Kalimantan Utara, Indonesia dan juga merupakan kota terkaya ke-17 di Indonesia. Kota ini memiliki luas wilayah 250,80 kmÂ² dan sesuai dengan data Badan Kependudukan Catatan Sipil dan Keluarga Berencana, Kota Tarakan berpenduduk sebanyak 239.787 jiwa. Tarakan atau juga dikenal sebagai Bumi Paguntaka, berada pada sebuah pulau kecil. Semboyan dari kota Tarakan adalah Tarakan Kota "BAIS" (Bersih, Aman, Indah, Sehat dan Sejahtera).
+        Kota Tarakan mempunyai 4 kecamatan dan 20 kelurahan, pada sektor pendidikan Kota Tarakan Mempunyai Sekolah Menengah Atas sebanyak 12 sekolah salah satunya adalah SMA Negeri 2 Tarakan yang ada di Kelurahan Kampung Enam Kecamatan Tarakan Timur.
+        SMA Negeri 2 Tarakan berdiri sejak tahun 1985 berdasarkan Surat Keputusan Departemen Pendidikan dan Kebudayaan Nomor : 0601/O/1985 Tanggal 22 Nopember 1985, pada Tahun 2016 SMA Negeri 2 Tarakan sudah berusia 31 tahun, tongkat kepemimpinan kepala sekolah ada 8 orang dari berdiri sekolah hingga sekarang, daftar nama kepala sekolah sebagai berikut :
+1.    Soeroto, BA Tahun 1985 â€“ 1991
+2.    Dra. Mugeni Tahun 1991 - 1993
+3.    Drs. Suwardi Tahun 1993 â€“ 1996
+4.    Sutadji, S.Pd Tahun 1996 â€“ 2000
+5.    Dra. Arbayah Kumalawati Tahun 2000 â€“ 2004
+6.    Suharyono, SE Tahun 2004 â€“ 2011
+7.    Dwi Sukristiono, M.Pd Tahun 2011 â€“ 2014
+8.    Sudarsono, S.Pd Tahun 2014 - 2019
+9.    Erni Nurjanah, S.Pd Tahun 2019 - Sekarang
+
+        SMA Negeri 2 Tarakan berada di kawasan pinggiran Kota Tarakan dan terletak ditengah-tengah pemukiman penduduk. Lokasi sekolah yang jauh dari jalan raya sehingga sangat baik untuk ketenangan bagi siswa dalam proses belajar. Wilayah sekolah yang dikelilingi dengan pepohonan sehingga menambah suasana asri dan teduh, sekolah yang mempunyai luas tanah 16,291 M2, ke depannya SMA Negeri 2 Tarakan akan menjadi sekolah yang berprestasi dalam akademik dan non akademik.
+        Pada kedepannya SMA Negeri 2 Tarakan akan mempunyai sarana prasarana yang lengkap dan akhirnya menjadi surga dunia pendidikan di Kota Tarakan.
+        Taraf perekonomian orang tua siswa yang di SMA Negeri 2 Tarakan tergolong masyarakat taraf ekonomi bawah sampai menengah dikarenakan masih ada yang mempunyai pekerjaan sebagai petani, buruh pabrik, bangunan selebihnya adalah Pegawai Negeri Sipil.
+        Dari tahun ke tahun SMA Negeri 2 Tarakan menjadi salah satu sekolah yang diperhitungkan bagi orang tua untuk mendaftarkan anaknya pada penerimaan siswa baru.Menyandang status sekolah negeri maka SMA Negeri 2 Tarakan ditunjuk sebagai sekolah berbasis kurikulum 2013."</string>
+    <string name="mb">"Marching Band SMA Negeri 2 Tarakan resmi berdiri pada tanggal 10 september 2008. eskul ini di bina langsung oleh ibu santi asmaradhani, s.pd. dengan pelatih utama yang sekarang adalah Rangga fitri ramadhan putra elsa. saat pertama kali didirikan, marching band smada sempat diberi nama "drum band gita swara smada" dikarenakan alat musik yang digunakan masih terbatas. namun, seiring berjalannya waktu dari yang sebelumnya bernama drumband, akhirnya berubah menjadi marching band karena alat musik yang dimiliki sudah lengkap dan menjadi kesatuan yang besar. dari sinilah sedikit demi sedikit prestasi MB. gita swara smada diraih. pada tahun 2013, MB. GSS mencapai puncak kejayaannya, dimana kesatuan ini berubah nama menjadi marching band gempita semangat smada dan pada saat itu juga mB. GSS Di kontrak langsung oleh pemerintah kota tarakan untuk bertugas mengiringi upacara hari besar nasional baik di stadion datu adil maupun di lingkungan pemerintah kota tarakan. berbagai prestasi telah diraih oleh MB GSS dengan mengikuti kejuaran- kejuaran baik ditingkat kota maupun provinsi."
+</string>
+
+    <string name="paskibraka">"Paskibraka adalah singkatan dari Pasukan Pengibar Bendera Pusaka dengan tugas utamanya mengibarkan duplikat bendera pusaka dalam upacara peringatan proklamasi kemerdekaan Indonesia di 3 tempat, yakni tingkat Kabupaten/Kota (Kantor Bupati/Walikota), Provinsi (Kantor Gubernur), dan Nasional (Istana Merdeka). Anggotanya berasal dari pelajar SMA Sederajat kelas 1 atau 2. Penyeleksian anggotanya biasanya dilakukan sekitar bulan April untuk persiapan pengibaran pada 17 Agustus."
+</string>
+
+    <string name="pramuka">"        Dalam perkembangan gudep Aswawarman Kak Harri menciptakan sebuah logo buat gudep yang nantinya logo tersebut dapat digunakan dalam ruang lingkup Rover Ranger Aswawarman. Logo tersebut mengandung makna persatuan persaudaraan antar anggota pramuka Aswawarman. Logo tersebut ada pada selayer yang telah anggota pramuka aswawarman miliki serta bendera yang ada di sekretariat pramuka.
+
+        Logo berbentuk oval dengan berbingkai ukiran tali temali yang menjadi persatuan ruang lingkup aswawarman didalam logo terdapat logo boy scout yang merupakan logo kepanduan sedunia dan menjadi dasar bagi roda gigi dengan 10 buah gigi serta bintang bersudut lima serta dua buah tunas kelapa yang berpasangan mengambarkan bahwa aswawarman pada kepengurusan mengerakkan anggota pramuka penegak (rover) dan pramuka penegak puteri (ranger) sebagai satuan terpisah untuk menjadi pramuka yang berlandaskan jiwa kepramukaan berdasarkan kode kehormatan serta taqwa kepada Tuhan Yang Maha Esa serta terdapat motto aswawarman Disiplin Terampil dan Gembira serta tulisan Aswawarman sebagai nama gudep.
+
+        Untuk Kiasan warna yakni kekokohan dan persatuan serta semangat aswawarman dikiaskan warna hitam, kuning mengartikan kematangan atau kedewasaan anggota pramuka aswawarman, warna merah pada tali sebagai tanda keberanian yang pada diri anggota pramuka aswawarman dalam menghadapi tantangan dan rintangan, warna merah putih pada roda gigi melambangkan kecintaan terhadap bangsa dan negaranya serta biru muda keteduhan dan kerendahan hati seorang Rover Ranger Aswawarman."</string>
+</resources>

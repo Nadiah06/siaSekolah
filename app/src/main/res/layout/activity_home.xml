@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.Home">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/kuningmuda"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:fillColor="#CDDC39"
+            app:pageColor="#000000"
+            app:radius="4dp"
+            app:slideInterval="3000"
+            app:strokeColor="#B86666"
+            app:strokeWidth="1dp">
+
+        </com.synnapps.carouselview.CarouselView>
+
+
+        <!--            Linear layout untuk buttom peta dan galeri-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <!--                    linear layout untuk image dan text-->
+                <LinearLayout
+                    android:id="@+id/button_profil"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#CD5C5C"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profilku" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Profil"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/button_guru"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#B8860B"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/guru" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Data Guru"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--ending 1-->
+
+
+        <!--            linear untuk masing-masing buttom -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <!--                    linear layout untuk image dan text-->
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/button_guru"-->
+<!--                    android:layout_width="113dp"-->
+<!--                    android:layout_height="133dp"-->
+<!--                    android:layout_marginLeft="40dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#B8860B"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="20dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginTop="6dp"-->
+<!--                        android:scaleType="fitXY"-->
+<!--                        android:src="@drawable/guru" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:text="Data Guru"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:textColor="@color/cardview_dark_background"-->
+<!--                        android:textSize="14dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/button_kesiswaan"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#685C04"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/siswa" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Kesiswaan"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--                    Linear untuk -->
+                <LinearLayout
+                    android:id="@+id/button_maps"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#2E8B57"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lokasi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Lokasi"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--    ending2-->
+
+
+        <!--            linear untuk masing-masing buttom -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <!--                    linear layout untuk image dan text-->
+                <LinearLayout
+                    android:id="@+id/button_pendaftaran"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#A04E4E"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/daftar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="6dp"
+                        android:text="Web Sekolah"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/buttpn_galeri"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#CC5C09"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/galeri" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Galeri"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <!--                    linear layout untuk image dan text-->
+                <LinearLayout
+                    android:id="@+id/button_video"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#F532660A"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/video" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Video"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button_tentang"
+                    android:layout_width="113dp"
+                    android:layout_height="133dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#D0000000"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tentang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:padding="5dp"
+                        android:text="Tentang"
+                        android:textAllCaps="true"
+                        android:textColor="@color/putih"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

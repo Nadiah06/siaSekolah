@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@id/button_xtrakulikuler"
+    tools:context=".kesiswaan.XtraKulikuler">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="PRAMUKA"
+            android:textColor="@color/black"
+            android:background="@color/hijauta"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:src="@drawable/pramuka" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:padding="@dimen/default_indicator_margin_vertical"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="@string/pramuka"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:orientation="vertical"
+            android:paddingTop="50dp"
+            android:textColor="@color/black">
+
+            <Button
+                android:id="@+id/button_xtrakulikuler"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/iconhome"
+                android:paddingTop="100dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dataguru.DataGuru">
+
+    <include layout="@layout/toolbar"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/gr_desi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuningmuda"
+        android:layout_margin="1dp"
+        android:text="Desy Riyaningsih, S.Psi., S.Pd" />
+
+    <Button
+        android:id="@+id/gr_idrus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kung"
+        android:layout_margin="1dp"
+        android:text="H.Ahmad Idrus, M.Pd.I" />
+
+    <Button
+        android:id="@+id/gr_juwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuningmuda"
+        android:layout_margin="1dp"
+        android:text="Juwarningsih, S.Pd" />
+
+    <Button
+        android:id="@+id/gr_kartini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kung"
+        android:layout_margin="1dp"
+        android:text="Kartina, S.Pd" />
+
+    <Button
+        android:id="@+id/gr_bagus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuningmuda"
+        android:layout_margin="1dp"
+        android:text="R. Bagus Budi Rahardja, M.Pd" />
+
+    <Button
+        android:id="@+id/gr_sudarsono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kung"
+        android:layout_margin="1dp"
+        android:text="SUDARSONO, SP.d" />
+
+    <Button
+        android:id="@+id/gr_susi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuningmuda"
+        android:layout_margin="1dp"
+        android:text="susy agusanty, s.pd" />
+
+    <Button
+        android:id="@+id/gr_titik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kung"
+        android:layout_margin="1dp"
+        android:text="titik erawati, s.pd" />
+
+    <Button
+        android:id="@+id/gr_upaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuningmuda"
+        android:layout_margin="1dp"
+        android:text="Upayani Parakkasi, S.Pd" />
+
+    <Button
+        android:id="@+id/gr_zahra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kung"
+        android:layout_margin="1dp"
+        android:text="zahara mardewati, s.t" />
+</LinearLayout>
+</LinearLayout>
