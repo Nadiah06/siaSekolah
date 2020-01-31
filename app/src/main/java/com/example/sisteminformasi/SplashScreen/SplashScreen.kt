@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.example.sisteminformasi.MainActivity
 import com.example.sisteminformasi.R
+import com.example.sisteminformasi.home.Home
 
 class SplashScreen : AppCompatActivity() {
     lateinit var handler : Handler
@@ -20,7 +21,7 @@ class SplashScreen : AppCompatActivity() {
         handler.postDelayed(Runnable {
             var intent: Intent
             intent = Intent(
-                this, MainActivity::class.java
+                this, Home::class.java
             )
             startActivity(intent)
             this@SplashScreen.finish()

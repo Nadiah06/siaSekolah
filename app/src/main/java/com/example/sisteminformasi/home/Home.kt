@@ -21,6 +21,7 @@ import com.synnapps.carouselview.CarouselView
 import com.synnapps.carouselview.ImageListener
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.zoomstruktur.*
 
 class Home : AppCompatActivity(), View.OnClickListener {
     lateinit var carouselView: CarouselView
@@ -89,6 +90,7 @@ class Home : AppCompatActivity(), View.OnClickListener {
         buttpn_galeri.setOnClickListener {
             startActivity(Intent(this@Home, Galeri::class.java))
         }
+
         button_profil.setOnClickListener {
             startActivity(Intent(this@Home, Profil::class.java))
         }

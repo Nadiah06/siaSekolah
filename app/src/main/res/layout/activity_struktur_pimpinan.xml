@@ -31,8 +31,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/struktur"
-        android:id="@+id/gambar_struktur"/>
+        android:src="@drawable/struktur"/>
 
     <LinearLayout
         android:layout_width="wrap_content"

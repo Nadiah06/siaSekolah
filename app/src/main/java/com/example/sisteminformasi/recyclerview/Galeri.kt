@@ -16,11 +16,19 @@ class Galeri : AppCompatActivity() {
         "http://2.bp.blogspot.com/_fdTIPL5uMUU/Se_eH9JNTiI/AAAAAAAAANg/x9pPj6j7hag/S483/h10.jpg"
         )
 
+    private val judulzoom = arrayListOf(
+        "Olahraga Sepak Bola",
+        "PMR SMADA",
+        "Marching Band",
+        "Halaman Depan SMADA",
+        "Pramuka",
+        "Baris berbaris pramuka"
+    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_galeri)
 
-        val adapter = AdapterGaleri (imageList)
+        val adapter = AdapterGaleri (imageList,judulzoom)
         galeri.adapter = adapter
 
     }

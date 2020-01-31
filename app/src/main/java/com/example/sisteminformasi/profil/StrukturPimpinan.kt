@@ -18,14 +18,5 @@ class StrukturPimpinan : AppCompatActivity() {
 
         layout_struktur.setOnClickListener {
             startActivity(Intent(this, Home::class.java))
-        }
-
-        gambar_struktur.setOnClickListener {
-            val bmp =(strukturzoom.drawable as BitmapDrawable).bitmap
-            imagePreview(bmp)
-        }
-    }
-
-    private fun imagePreview(bmp: Bitmap?) {
-    }
+        }}
 }
