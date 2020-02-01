@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nama : Desy Riyaningsih, S.Psi., S.Pd"
+                android:text="Nama                       : Desy R,S.Psi.,S.Pd"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NIP : 197612012011012001"
+                android:text="NIP                            : 197612012011012001"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
@@ -70,7 +70,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tahun Sertifikasi : 0000"
+                android:text="Tahun Sertifikasi    : 0000"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
@@ -79,7 +79,7 @@
                 android:id="@+id/statusdesi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Status : PNS"
+                android:text="Status                      : PNS"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
-                android:text="Pendidikan : S.1 Pendidikan Bimbingan"
+                android:text="Pendidikan              : S.1 Pendidikan Bimbingan"
                 android:textSize="19sp" />
 
             <TextView
@@ -98,13 +98,13 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
-                android:text="Mata Pelajaran : Konseling"
+                android:text="Mata Pelajaran      : Konseling"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Jenis Kelamin	: Perempuan"
+                android:text="Jenis Kelamin	        : Perempuan"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
-                android:text="Agama	: Islam"
+                android:text="Agama	                    : Islam"
                 android:textSize="19sp" />
 
             <TextView
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
-                android:text="Tempat Lahir:Tarakan"
+                android:text="Tempat Lahir          :Tarakan"
                 android:textSize="19sp" />
 
             <TextView
@@ -131,13 +131,13 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
-                android:text="Tanggal Lahir	: 01-12-1976"
+                android:text="Tanggal Lahir	        : 01-12-1976"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alamat : Jalan Purna Bhakti Pepabri RT. 12"
+                android:text="Alamat                    : Jalan Purna Bhakti Pepabri RT. 12"
                 android:paddingTop="5dp"
                 android:textColor="@color/black"
                 android:textSize="19sp" />

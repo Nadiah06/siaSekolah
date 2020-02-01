@@ -54,7 +54,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Nama : Zahara Mardewati,S.T"
+                        android:text="Nama                      : Zahara Mardewati,S.T"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -62,7 +62,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="NIP : - "
+                        android:text="NIP                           : - "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -70,7 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="NUPTK	: - "
+                        android:text="NUPTK	                   : - "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -78,7 +78,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Tahun Sertifikasi : 0000"
+                        android:text="Tahun Sertifikasi  : 0000"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -87,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Status : PNS "
+                        android:text="Status                     : PNS "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -95,7 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Pendidikan : S1 "
+                        android:text="Pendidikan             : S1 "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -104,7 +104,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Mata Pelajaran : Kimia "
+                        android:text="Mata Pelajaran     : Kimia "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -112,7 +112,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Jenis Kelamin	: Perempuan"
+                        android:text="Jenis Kelamin        : Perempuan"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -120,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Agama	: Islam"
+                        android:text="Agama	                   : Islam"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -129,7 +129,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Tempat Lahir: - "
+                        android:text="Tempat Lahir         : - "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -137,7 +137,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Tanggal Lahir	: 00-00-0000"
+                        android:text="Tanggal Lahir       	: 00-00-0000"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -145,7 +145,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Alamat : - "
+                        android:text="Alamat                    : - "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
