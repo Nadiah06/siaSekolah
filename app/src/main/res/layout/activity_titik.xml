@@ -43,7 +43,7 @@
                     android:src="@drawable/titik" />
 
                 <LinearLayout
-                    android:layout_width="369dp"
+                    android:layout_width="394dp"
                     android:layout_height="wrap_content"
                     android:gravity="fill_vertical"
                     android:orientation="vertical"
@@ -53,7 +53,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="Nama                      : Titik Erawati, S.Pd"
+                        android:text="Nama                       : Titik Erawati, S.Pd"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 
@@ -61,7 +61,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"
-                        android:text="NIP                           :    - "
+                        android:text="NIP                            :    - "
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 

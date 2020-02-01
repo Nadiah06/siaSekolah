@@ -43,7 +43,7 @@
             android:src="@drawable/bagus" />
 
         <LinearLayout
-            android:layout_width="360dp"
+            android:layout_width="394dp"
             android:layout_height="wrap_content"
             android:gravity="fill_vertical"
             android:orientation="vertical"
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="NIP                            : - "
+                android:text="NIP                            :  - "
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
@@ -78,7 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Status                       : - "
+                android:text="Status                       :     - "
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
@@ -86,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Pendidikan               : - "
+                android:text="Pendidikan               :    - "
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Tempat Lahir           : - "
+                android:text="Tempat Lahir           :   - "
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
@@ -136,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="Alamat                      : - "
+                android:text="Alamat                      :  - "
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
