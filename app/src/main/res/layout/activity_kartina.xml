@@ -43,7 +43,7 @@
                     android:src="@drawable/kartina" />
 
                 <LinearLayout
-                    android:layout_width="346dp"
+                    android:layout_width="373dp"
                     android:layout_height="wrap_content"
                     android:gravity="fill_vertical"
                     android:orientation="vertical"

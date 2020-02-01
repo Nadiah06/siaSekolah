@@ -43,7 +43,7 @@
                     android:src="@drawable/titik" />
 
                 <LinearLayout
-                    android:layout_width="353dp"
+                    android:layout_width="369dp"
                     android:layout_height="wrap_content"
                     android:gravity="fill_vertical"
                     android:orientation="vertical"

@@ -43,7 +43,7 @@
                     android:src="@drawable/upayani" />
 
                 <LinearLayout
-                    android:layout_width="360dp"
+                    android:layout_width="380dp"
                     android:layout_height="wrap_content"
                     android:gravity="fill_vertical"
                     android:orientation="vertical"
